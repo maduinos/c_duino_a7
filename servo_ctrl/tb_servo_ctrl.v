@@ -20,7 +20,7 @@ module tb_servo_ctrl();
 
 localparam CLK_PERIOD = 10; // 10ns
 
-pwm_ctrl dut0 (
+servo_ctrl dut0 (
     .clk(clk),
     .resetn(resetn),
     .pwm_sig(pwm_sig),
