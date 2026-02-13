@@ -13,7 +13,7 @@
 module tb_led_ctrl();
     reg clk;
     reg resetn;
-    wire [3:0] led;
+    wire led;
 
     // register
     reg [31:0] led_state;

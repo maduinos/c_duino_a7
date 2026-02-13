@@ -23,7 +23,6 @@ assign freq = `NOTE_C5;
 always @(posedge clk) begin
     if(!resetn) begin
         cnt <= 16'd0;
-        buzzer <= 1'b0;
     end
     else begin
         if( cnt >= freq ) begin
