@@ -21,7 +21,7 @@ module led_sw_ctrl # (
 
 always @(posedge clk) begin
     if(!resetn)     led <= {LED_NUM{1'b0}};
-    else            led <= sw[LED_NUM-1:0];
+    else            led <= {{(LED_NUM-SW_NUM){1'b0}}, sw};
 end
 
 
