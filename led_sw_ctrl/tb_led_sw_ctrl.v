@@ -54,9 +54,9 @@ initial begin
     repeat(3) begin
         // Change LED state
         case (sw)
-            3'h0000_0001: $display("LED State: %b", led);
-            3'h0000_0002: $display("LED State: %b", led);
-            3'h0000_0004: $display("LED State: %b", led);
+            3'b001: $display("LED State: %b", led);
+            3'b010: $display("LED State: %b", led);
+            3'b100: $display("LED State: %b", led);
         endcase
 
         // Wait for clock edges

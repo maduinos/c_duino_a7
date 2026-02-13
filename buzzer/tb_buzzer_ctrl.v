@@ -17,7 +17,7 @@ module tb_buzzer_ctrl();
 
 localparam CLK_PERIOD = 100; // 100ns
 
-pwm_ctrl dut0 (
+buzzer_ctrl dut0 (
     .clk(clk),
     .resetn(resetn),
     .buzzer(buzzer)
