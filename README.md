@@ -23,6 +23,8 @@ This repository is documentation-focused and keeps the HDL examples intentionall
 | `servo_ctrl/` | 50 Hz PWM hobby servo signal example |
 | `docs/overview.md` | Module-level notes and intended use |
 | `docs/simulation.md` | Lightweight simulation guidance |
+| `docs/bring-up-guide.md` | Board bring-up sequence and safety checks |
+| `docs/adaptation-guide.md` | Guidance for adapting examples into larger projects |
 | `docs/release-checklist.md` | Public release hygiene checklist |
 | `.github/workflows/verilog-sim.yml` | GitHub Actions simulation check |
 | `c_duino_a7_demo.zip` | Original packaged demo archive |
@@ -51,6 +53,13 @@ Maduinos uses this repository as a public FPGA example set for education and con
 
 - Blog: <https://maduinos.blogspot.com/>
 - Business page: <https://biz.maduinos.com/>
+
+## Project Management
+
+- Changes: `CHANGELOG.md`
+- Support scope: `SUPPORT.md`
+- Contribution guide: `CONTRIBUTING.md`
+- Security reporting: `SECURITY.md`
 
 ## Version History
 
