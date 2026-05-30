@@ -6,7 +6,7 @@ This guide keeps the public demo flow focused on quick, repeatable board checks.
 
 - Vivado 2023.2.2 is the documented baseline.
 - Vitis Classic 2023.2.2 is the documented software baseline for flows that need it.
-- For lightweight HDL checks, use the GitHub Actions simulation workflow or local `iverilog` when available.
+- Confirm Vivado project settings before programming hardware.
 
 ## 2. Start With Reset and Clock
 
@@ -36,6 +36,5 @@ Use `buzzer_ctrl` and `servo_ctrl` only after basic GPIO is known to work.
 When adapting examples:
 
 - Change one module at a time.
-- Run simulation before hardware tests.
+- Review clock, reset, and pin assumptions before hardware checks.
 - Document clock, reset, and pin assumptions in the README or a local project note.
-
