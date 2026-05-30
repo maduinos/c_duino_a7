@@ -57,6 +57,7 @@ Maduinos uses this repository as a public FPGA example set for education and con
 ## Project Management
 
 - Changes: `CHANGELOG.md`
+- Release process: `RELEASE.md`
 - Support scope: `SUPPORT.md`
 - Contribution guide: `CONTRIBUTING.md`
 - Security reporting: `SECURITY.md`
