@@ -1,0 +1,33 @@
+name: Verilog Simulation
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  simulate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install simulator
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y iverilog
+
+      - name: Run testbenches
+        run: |
+          mkdir -p build
+          iverilog -g2012 -I buzzer -o build/tb_buzzer_ctrl.vvp buzzer/buzzer_ctrl.v buzzer/tb_buzzer_ctrl.v
+          vvp build/tb_buzzer_ctrl.vvp
+
+          iverilog -g2012 -o build/tb_led_ctrl.vvp led_ctrl/led_ctrl.v led_ctrl/tb_led_ctrl.v
+          vvp build/tb_led_ctrl.vvp
+
+          iverilog -g2012 -o build/tb_led_sw_ctrl.vvp led_sw_ctrl/led_sw_ctrl.v led_sw_ctrl/tb_led_sw_ctrl.v
+          vvp build/tb_led_sw_ctrl.vvp
+
+          iverilog -g2012 -o build/tb_servo_ctrl.vvp servo_ctrl/servo_ctrl.v servo_ctrl/tb_servo_ctrl.v
+          vvp build/tb_servo_ctrl.vvp

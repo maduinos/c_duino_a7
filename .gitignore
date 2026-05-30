@@ -1,0 +1,33 @@
+# Vivado/Vitis generated files
+.Xil/
+.cache/
+.hw/
+.ip_user_files/
+*.jou
+*.log
+*.str
+*.xpr
+*.xsa
+*.runs/
+*.sim/
+*.srcs/
+*.gen/
+*.sdk/
+*.hwdef
+*.bit
+*.bin
+*.ltx
+
+# Simulation output
+*.vcd
+*.fst
+*.wlf
+*.vvp
+work/
+xsim.dir/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
