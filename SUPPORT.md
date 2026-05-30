@@ -5,7 +5,6 @@
 Use GitHub issues for:
 
 - Documentation gaps.
-- Reproducible simulation problems.
 - Small HDL demo issues.
 - Questions that can be answered publicly without customer-specific context.
 
@@ -16,4 +15,3 @@ Use the Maduinos business page for private FPGA education, consulting, board bri
 <https://biz.maduinos.com/>
 
 Do not post private schematics, customer files, credentials, or unpublished commercial work in public issues.
-
