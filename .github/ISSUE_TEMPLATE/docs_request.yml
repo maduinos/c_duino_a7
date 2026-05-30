@@ -1,0 +1,19 @@
+name: Documentation request
+description: Suggest clearer setup notes, module explanation, or bring-up documentation.
+title: "[docs]: "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: topic
+    attributes:
+      label: Topic
+      description: Which document or module should be improved?
+    validations:
+      required: true
+  - type: textarea
+    id: needed
+    attributes:
+      label: What should be clearer?
+    validations:
+      required: true
+

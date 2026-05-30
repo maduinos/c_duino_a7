@@ -1,0 +1,38 @@
+name: FPGA demo bug report
+description: Report a problem in a C_DUINO_A7 demo source or testbench.
+title: "[bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is wrong?
+    validations:
+      required: true
+  - type: input
+    id: module
+    attributes:
+      label: Module or path
+      placeholder: servo_ctrl/servo_ctrl.v
+    validations:
+      required: true
+  - type: input
+    id: tool-version
+    attributes:
+      label: Tool version
+      placeholder: Vivado 2023.2.2, Icarus Verilog 11.0
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      description: Include commands, simulation steps, or hardware setup notes.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
