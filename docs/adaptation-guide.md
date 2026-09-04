@@ -1,3 +1,7 @@
+> 만든 사람: maduinos<br>
+> 문서 만든 날짜: 2026-05-30<br>
+> https://maduinos.blogspot.com/
+
 # Adaptation Guide
 
 These examples are intentionally small. When adapting them into a larger FPGA project, keep the module boundary clear.
