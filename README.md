@@ -1,3 +1,7 @@
+> 만든 사람: maduinos<br>
+> 문서 만든 날짜: 2024-03-01<br>
+> https://maduinos.blogspot.com/
+
 # C_DUINO_A7 FPGA 데모
 
 C_DUINO_A7 보드를 위한 FPGA 데모 소스입니다. Maduinos의 FPGA 교육, 보드 bring-up, 소규모 하드웨어 프로토타이핑 참고 자료로 공개합니다.

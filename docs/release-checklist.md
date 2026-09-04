@@ -1,3 +1,7 @@
+> 만든 사람: maduinos<br>
+> 문서 만든 날짜: 2026-05-30<br>
+> https://maduinos.blogspot.com/
+
 # Public Release Checklist
 
 Use this checklist before publishing a new C_DUINO_A7 example or release archive.
