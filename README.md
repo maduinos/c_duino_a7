@@ -61,7 +61,7 @@ Maduinos는 이 저장소를 FPGA 교육과 컨설팅 대화에서 참고할 수
 - 릴리스 절차: `RELEASE.md`
 - 지원 범위: `SUPPORT.md`
 - 기여 가이드: `CONTRIBUTING.md`
-- 보안 신고: `SECURITY.md`
+- 문의·소식: <https://maduinos.blogspot.com/>
 
 ## 버전 이력
 
