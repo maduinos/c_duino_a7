@@ -52,7 +52,8 @@ Maduinos는 이 저장소를 FPGA 교육과 컨설팅 대화에서 참고할 수
 ## 관련 링크
 
 - 블로그: <https://maduinos.blogspot.com/>
-- 비즈니스 페이지: <https://biz.maduinos.com/>
+- 비즈니스 페이지: <https://maduinos.com/>
+- 보드 구매: [Maduinos 스마트스토어](https://smartstore.naver.com/maduinos/products/10003628541)
 
 ## 프로젝트 관리
 
